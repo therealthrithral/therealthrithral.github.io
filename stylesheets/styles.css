@@ -1,6 +1,7 @@
 html {
     color: lime;
     background-color: black;
+    display: flex;
 }
 
 .welcome {
@@ -23,7 +24,8 @@ p {
 
 h3,
 h2,
-h4 {
+h4,
+h5 {
     text-align: center;
 }
 
@@ -32,10 +34,17 @@ footer {
 }
 
 .work,
-.projects {
+.projects,
+.certs {
     font-size: 30px;
 }
 
 body {
     font-size: 20px;
+}
+
+#nav-bar {
+    position: absolute;
+    top: 0px;
+    text-align: left;
 }
