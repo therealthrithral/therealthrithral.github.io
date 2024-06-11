@@ -3,88 +3,140 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="My Github Site">
-    <title>Brian Coppola's Website</title>
-    <link href="stylesheets/styles.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheets/styleSheet-MainPage.css">
+    <title>Brian Coppola - Portfolio</title>
 </head>
 
 <body>
     <header>
-        <h1 class="welcome">Welcome to my website!</h1>
-        <ul id="nav-bar">
-            <li><a href="projects.html">My Projects</a></li>
-            <li><a href="certifications.html">My Certifications</a></li>
-        </ul>
-        <div class=" divider"></div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#resume">Resume</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Brian Coppola</h1>
+            <p>Hobby Web Developer</p>
+            <a href="#projects" class="cta">View My Work</a>
+        </div>
     </header>
-    <main>
-        <h2>About Me!</h2>
-        <p>Hello and welcome to my website! I hope you enjoy your stay here!
-            My name is Brian. I am 25 years old and live in Connecticut.
-            I have many interests but my main interests are anything Disney,
-            Stand-up comedy, and programming. I have always been interested
-            in programming for as long as I can remember. For my High School
-            graduation project, I learned the basics of Java to code a calculator
-            but I ended up abandoning the project after graduating.
-        </p>
-        <p>
-            After graduating since I didn't want to go to college yet, I found work
-            part time in a movie theater, this was back in 2017.
-            Fast forward to current day, I am learning Java, Python, C#, HTML and CSS
-            on my own through multiple different sources.
-        </p>
-        <p>
-            So far, I have completed both the Beginner and Advanced Java courses offered by the University of Helsinki,
-            I have completed the Foundational C# course on freeCodeCamp and MicrosoftLearn, and more which can be <a
-                href="certifications.html">found here</a>
-        </p>
-        <div class="divider"></div>
-        <h3 class="work">Work History</h3>
-        <p class="spacer">
-            Kohls: Store Associate<br>
-            June 2023 - Present<br>
-            Duties: Amazon Returns, Customer Service, POC, Stocking, Folding, Hanging clothes<br>
-            Other assorted duties as assigned by management.
-        </p>
-        <br>
-        <p class="spacer">CVS: Store Supervisor<br>
-            february 2022 - December 2022<br>
-            Duties: Verifying registers and deposit, leading small team of ~3 people, counting safe, planograms,
-            scanning in vendors<br>
-            Other assorted duties as assigned by store manager.
-            <br><br>
-            CVS Health: Store Associate<br>
-            August 2020 - September 2022<br>
-            Duties: POS, Stocking, PhotoCenter, Amazon pickups and returns<br>
-            Other assorted duties as assigned by management.
-        </p>
-        <br>
-        <p class="spacer">AMF Circle Lanes: Floor Staff<br>
-            Duties: Assist with lane calls, restock bar, run food & drink to assist servers / bartenders,<br>
-            maintain cleanliness of bathrooms, walkways within building, take out trash at end of night.<br>
-            Other assorted duties as assigned by center management.
-        </p>
-        <br>
-        <p class="spacer">Regal Cinemas: Floor Staff<br>
-            Duties: Selling tickets, concessions, checking tickets and ushering people to theaters,<br>
-            maintaining cleanliness of bathrooms, changing theater lights and polarizers as needed<br>
-            Other duties as assigned by management.
-        </p>
-    </main>
-    <div class="divider"></div>
 
-    <h4 class="projects">Projects</h4>
-    <p class="spacer">
-        This is just a short overview of my projects that I feel confident about. A more in depth overview of my
-        projects can be found at my GitHub, or on this website by following <a href="projects.html">this link</a> or by
-        following the "My Projects" link in the navigation bar at the top of the page.
-    </p>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>My name is Brian Coppola. I am a hobbyist web dev based out of Connecticut USA. I am fully self taught, with
+            freeCodeCamp being the source of most of my knowledge supplemented with Youtube and other random solo
+            projects. My eventual goal is to be able to do what I love full time while also being able to work on
+            freelance projects on the side.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>My projects can be found <a href="projects.html"><strong>here</strong></a>, and as well as <a
+                href="https://github.com/therealthrithral"><strong>here on my Github.</strong></a></p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>Placeholder: Computer Skills</p>
+        <ul class="textIndent">
+            <li>Responsive HTML</li>
+            <li>CSS</li>
+            <li>Basic Troubleshooting</li>
+        </ul>
+        <br>
+        <p>Placeholder: Real World Skills</p>
+        <ul class="textIndent">
+            <li>Cash & Check Handling</li>
+            <li>Product Merchandising</li>
+            <li>Leadership Experience</li>
+
+        </ul>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>
+        <ul>
+            <img src="media/Kohl's_logo.png" class="kohlsLogo" />
+            <li>
+                Kohls - Service Associate - June 2023 - Present
+                <p class="textIndent">
+                    Amazon Returns
+                    <br>
+                    Truck load and unload
+                    <br>
+                    Customer returns and exchanges
+                    <br>
+                    Folding and hanging of Softlines
+                    <br>
+                    Unboxing of Hardlines
+                </p>
+            </li>
+            <img src="media/CVSLogo.png" class="cvsLogo">
+            <li>
+                CVS - Store Associate & Store Supervisor- December 2020 - December 2022
+                <p class="textIndent">
+                    Managed team of 3-4 people
+                    <br>
+                    Unloaded Truck
+                    <br>
+                    Counted safe and verified deposit at end of night
+                    <br>
+                    Counted and verified accuracy of registers
+                    <br>
+                    Cash & check handling
+                    <br>
+                    Respond to customer surveys
+                    <br>
+                    Set new merchandise in accordance with planograms sent by corporate
+                    <br>
+                    Processed UPS returns and pick-ups as well as buy online, pick up in store purchases
+                </p>
+            </li>
+            <img src="media/AMFLogo.png" class="amfLogo">
+            <li>
+                AMF - Porter - September 2019 - March 2020
+                <p class="textIndent">
+                    Maintained cleanliness of bathrooms
+                    <br>
+                    Assisted in setting up for special events
+                    <br>
+                    Helped restock bar as requested by bar staff
+                    <br>
+                    Helped run food as requested by food & beverage staff
+                    <br>
+                    Assisted lane mechanics with lane calls
+                </p>
+            </li>
+            <img src="media/RegalCinemasLogo.png" class="regalLogo">
+            <li>
+                Regal Cinemas - Floor Staff - December 2017 - April 2019
+                <p class="textIndent">
+                    Maintained cleanliness of lobby, theaters & bathrooms
+                    <br>
+                    Checked tickets and directed patrons to correct theaters
+                    <br>
+                    Sold tickets & concessions
+                    <br>
+                    Performed security checks on theaters in accordance with walk sheet
+                    <br>
+                    Changed marquee sign to reflect correct show times for next day if needed
+                    <br>
+                    Adjusted lights and 3D polarizer for special events and 3D movies as needed
+            </li>
+        </ul>
+        </p>
+    </section>
+
     <footer>
-        <br><br>
-        <div class="divider"></div>
-        <br><br>
+        <p>&copy; Brian Coppola 2024</p>
     </footer>
+
+    <script src="scripts/script.js"></script>
 </body>
 
 </html>
